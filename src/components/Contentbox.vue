@@ -4,9 +4,7 @@
             app
             permanent
             rounded-lg
-            color="gray darken-2"
-    style="margin-top: 60px">
-        
+            color="gray darken-2">
         <router-view/>
 
     </v-sheet>
@@ -14,11 +12,14 @@
 
 <style>
     .content {
+        margin-top: 10vh;
+        margin-right: 12px;
+        margin-left: 12px;
         padding: 20px;
-        width: 95vh;
-        max-width: 95vh;
-        max-height: 80vh;
-        height: 80vh;
+        width: 48vw;
+        max-width: 48vw;
+        max-height: 70vh;
+        height: 70vh;
         overflow: auto;
     }
 

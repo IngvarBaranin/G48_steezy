@@ -1,6 +1,6 @@
 <template>
-    <v-navigation-drawer class="borderleft" permanent app absolute >
-        <v-list-item style="height: 150px">
+    <v-navigation-drawer class="borderleft" permanent app absolute>
+        <v-list-item style="height: 15vh">
             <v-list-item-content>
                 <v-list-item-title class="title text-h3">
                     Steezy
@@ -21,11 +21,12 @@
                     <v-list-item-content>
                         <v-list-item-title class="text-h6 my-2 mx-4">Home</v-list-item-title>
                     </v-list-item-content>
+
                 </v-list-item>
             </router-link>
             <router-link to="/overview">
                 <v-list-item class="item">
-                    <v-list-item-content>
+                    <v-list-item-content >
                         <v-list-item-title class="text-h6 my-2 mx-4">Overview</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
@@ -46,7 +47,7 @@
             </router-link>
             <router-link to="contact">
                 <v-list-item class="item">
-                        <v-list-item-content>
+                    <v-list-item-content>
                         <v-list-item-title class="text-h6 my-2 mx-4">Contact</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
@@ -60,19 +61,15 @@
             </router-link>
         </v-list>
     </v-navigation-drawer>
+
 </template>
 
 <style>
     .borderleft {
-        border-left: 1px solid #e0e0e0 !important;
-        border-bottom: 1px solid #e0e0e0 !important;
-    }
-    .link {
-        text-decoration: none;
-        color: black !important;
+        border-left: 2px solid #e0e0e0 !important;
     }
 
-    .item:hover{
-        background-color: #EEEEEE!important;
+    .item:hover {
+        background-color: #EEEEEE !important;
     }
 </style>
