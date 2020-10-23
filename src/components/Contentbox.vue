@@ -2,6 +2,7 @@
     <v-sheet
             app
             permanent
+            rounded-lg
             color="gray darken-2"
             min-height="60vh"
             min-width="60vh"
