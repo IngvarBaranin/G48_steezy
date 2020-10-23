@@ -16,36 +16,48 @@
                 dense
                 nav
         >
-            <v-list-item class="item">
-                <v-list-item-content>
-                    <v-list-item-title class="text-h6 my-2 mx-4"><router-link to="/">Home</router-link></v-list-item-title>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-item class="item">
-                <v-list-item-content>
-                    <v-list-item-title class="text-h6 my-2 mx-4"><a class="link" href="overview" >Overview</a></v-list-item-title>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-item class="item">
-                <v-list-item-content>
-                    <v-list-item-title class="text-h6 my-2 mx-4"><a class="link" href="advice" >Advice</a></v-list-item-title>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-item class="item">
-                <v-list-item-content>
-                    <v-list-item-title class="text-h6 my-2 mx-4"><a class="link" href="resources" >Resources</a></v-list-item-title>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-item class="item">
-                <v-list-item-content>
-                    <v-list-item-title class="text-h6 my-2 mx-4"><a class="link" href="contact" >Contact</a></v-list-item-title>
-                </v-list-item-content>
-            </v-list-item>
-            <v-list-item class="item">
-                <v-list-item-content>
-                    <v-list-item-title class="text-h6 my-2 mx-4"><a class="link" href="news" >News</a></v-list-item-title>
-                </v-list-item-content>
-            </v-list-item>
+            <router-link to="/">
+                <v-list-item class="item">
+                    <v-list-item-content>
+                        <v-list-item-title class="text-h6 my-2 mx-4">Home</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
+            </router-link>
+            <router-link to="/overview">
+                <v-list-item class="item">
+                    <v-list-item-content>
+                        <v-list-item-title class="text-h6 my-2 mx-4">Overview</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
+            </router-link>
+            <router-link to="/advice">
+                <v-list-item class="item">
+                    <v-list-item-content>
+                        <v-list-item-title class="text-h6 my-2 mx-4">Advice</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
+            </router-link>
+            <router-link to="/resources">
+                <v-list-item class="item">
+                    <v-list-item-content>
+                        <v-list-item-title class="text-h6 my-2 mx-4">Resources</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
+            </router-link>
+            <router-link to="contact">
+                <v-list-item class="item">
+                        <v-list-item-content>
+                        <v-list-item-title class="text-h6 my-2 mx-4">Contact</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
+            </router-link>
+            <router-link to="news">
+                <v-list-item class="item">
+                    <v-list-item-content>
+                        <v-list-item-title class="text-h6 my-2 mx-4">News</v-list-item-title>
+                    </v-list-item-content>
+                </v-list-item>
+            </router-link>
         </v-list>
     </v-navigation-drawer>
 </template>
