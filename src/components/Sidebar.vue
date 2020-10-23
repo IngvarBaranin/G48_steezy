@@ -1,8 +1,6 @@
 <template>
   <v-app>
-        <v-app-bar app dense light>
-          Title
-        </v-app-bar>
+
 
         <v-navigation-drawer permanent app>
             <v-list-item>

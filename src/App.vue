@@ -1,19 +1,26 @@
 <template>
   <v-app>
+      <v-container>
+          <Navbar/>
+          <Sidebar/>
+      </v-container>
 
-        <Sidebar/>
+
+
 
   </v-app>
 </template>
 
 <script>
 import Sidebar from './components/Sidebar';
+import Navbar from './components/Topbar';
 
 export default {
   name: 'App',
 
   components: {
-    Sidebar
+    Sidebar,
+      Navbar
   },
 
   data: () => ({
@@ -21,3 +28,4 @@ export default {
   }),
 };
 </script>
+
