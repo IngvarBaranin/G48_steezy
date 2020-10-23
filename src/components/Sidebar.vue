@@ -55,6 +55,6 @@
     }
 
     .item:hover{
-        background-color: rgb(230 230 230)!important;
+        background-color: #EEEEEE!important;
     }
 </style>
