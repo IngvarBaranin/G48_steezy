@@ -1,5 +1,5 @@
 <template>
-    <v-navigation-drawer permanent app absolute="true">
+    <v-navigation-drawer class="borderleft" permanent app absolute="true">
         <v-list-item>
             <v-list-item-content>
                 <v-list-item-title class="title text-h3">
@@ -30,5 +30,7 @@
 </template>
 
 <style>
-
+    .borderleft {
+        border-left: 1px solid #e0e0e0 !important;
+    }
 </style>
