@@ -1,13 +1,7 @@
 <template>
   <v-app>
-      <v-container>
-          <Navbar/>
-          <Sidebar/>
-      </v-container>
-
-
-
-
+              <Navbar/>
+              <Sidebar/>
   </v-app>
 </template>
 
@@ -29,3 +23,9 @@ export default {
 };
 </script>
 
+<style>
+body {
+    width: 1200px;
+    margin:0 auto;
+}
+</style>
