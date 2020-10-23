@@ -18,6 +18,11 @@
         >
             <v-list-item class="item">
                 <v-list-item-content>
+                    <v-list-item-title class="text-h6 my-2 mx-4"><router-link to="/">Home</router-link></v-list-item-title>
+                </v-list-item-content>
+            </v-list-item>
+            <v-list-item class="item">
+                <v-list-item-content>
                     <v-list-item-title class="text-h6 my-2 mx-4"><a class="link" href="overview" >Overview</a></v-list-item-title>
                 </v-list-item-content>
             </v-list-item>
