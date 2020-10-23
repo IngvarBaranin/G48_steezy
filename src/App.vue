@@ -1,9 +1,7 @@
 <template>
   <v-app>
 
-    <v-main>
         <Sidebar/>
-    </v-main>
 
   </v-app>
 </template>

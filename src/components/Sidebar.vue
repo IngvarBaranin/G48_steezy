@@ -1,8 +1,10 @@
 <template>
   <v-app>
+        <v-app-bar app dense light>
+          Title
+        </v-app-bar>
 
-    <v-main>
-        <v-navigation-drawer permanent>
+        <v-navigation-drawer permanent app>
             <v-list-item>
                 <v-list-item-content>
                     <v-list-item-title class="title text-h3">
@@ -30,7 +32,6 @@
               </v-list-item>
             </v-list>
         </v-navigation-drawer>
-    </v-main>
 
   </v-app>
 </template>
