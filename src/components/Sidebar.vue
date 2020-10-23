@@ -65,6 +65,7 @@
 <style>
     .borderleft {
         border-left: 1px solid #e0e0e0 !important;
+        border-bottom: 1px solid #e0e0e0 !important;
     }
     .link {
         text-decoration: none;

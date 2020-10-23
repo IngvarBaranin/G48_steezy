@@ -1,12 +1,11 @@
 <template>
     <v-sheet
+            class="content"
             app
             permanent
             rounded-lg
             color="gray darken-2"
-            min-height="60vh"
-            min-width="60vh"
-    style="margin-top:80px">
+    style="margin-top: 60px">
         
         <router-view/>
 
@@ -14,5 +13,13 @@
 </template>
 
 <style>
+    .content {
+        padding: 20px;
+        width: 95vh;
+        max-width: 95vh;
+        max-height: 80vh;
+        height: 80vh;
+        overflow: auto;
+    }
 
 </style>

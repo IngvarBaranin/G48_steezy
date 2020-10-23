@@ -39,6 +39,9 @@
 </script>
 
 <style>
+    html {
+        overflow: hidden;
+    }
     body {
         width: 1200px;
         margin: 0 auto;
@@ -46,5 +49,11 @@
 
         background-size: cover;
         background-repeat: no-repeat;
+        overflow: hidden;
+
+        max-height: 90vh;
+        height: 90vh;
+        border-bottom: 1px solid #e0e0e0 !important;
+        border-right: 1px solid #e0e0e0 !important;
     }
 </style>
