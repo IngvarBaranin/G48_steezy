@@ -55,7 +55,7 @@
             <router-link to="news">
                 <v-list-item class="item">
                     <v-list-item-content>
-                        <v-list-item-title class="text-h6 my-2 mx-4">News</v-list-item-title>
+                        <v-list-item-title class="text-h6 my-2 mx-4">Events</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
             </router-link>
