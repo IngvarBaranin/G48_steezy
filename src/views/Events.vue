@@ -11,7 +11,7 @@
               <v-img
                 class="white--text align-end"
                 height="100px"
-                src="https://cdn.shopify.com/s/files/1/2395/7099/products/23abcc85-ec25-4007-a3cb-cbf6be14498b_900x.progressive.jpg?v=1589539545"
+                src="https://i.imgur.com/QGnlME3.jpg"
               >
                 <v-card-title class="titleshadow">Cyber Security month</v-card-title>
               </v-img>
