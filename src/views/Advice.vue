@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="advice">
         <h1>Advice</h1>
         <hr>
         <br>
@@ -92,6 +92,10 @@
 <style>
     .iconspace {
         padding-right:1em
+    }
+
+    .advice{
+        padding-right: 5vw;
     }
 
     .advice-ol li { color: #FFAB40; }
