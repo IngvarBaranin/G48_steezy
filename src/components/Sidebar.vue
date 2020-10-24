@@ -45,14 +45,14 @@
                     </v-list-item-content>
                 </v-list-item>
             </router-link>
-            <router-link to="contact">
+            <router-link to="/contact">
                 <v-list-item class="item">
                     <v-list-item-content>
                         <v-list-item-title class="text-h6 my-2 mx-4">Contact</v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
             </router-link>
-            <router-link to="news">
+            <router-link to="/events">
                 <v-list-item class="item">
                     <v-list-item-content>
                         <v-list-item-title class="text-h6 my-2 mx-4">Events</v-list-item-title>
