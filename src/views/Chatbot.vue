@@ -79,7 +79,7 @@
                             elevation="2"
                             outlined
                     >
-                        <form action="#">
+                        <form>
 
                             <v-textarea
                                     style="padding:10px"
@@ -150,9 +150,6 @@
         max-height: 80vh;
         height: 80vh;
 
-        background-image: url("../assets/undraw_Private_data_re_4eab.svg");
-        background-repeat: no-repeat;
-        background-position: right;
     }
 
     /* The popup chat - hidden by default */
