@@ -1,7 +1,7 @@
 <template>
     <div class="chatbot">
-
-        <v-row>
+        <amplify-chatbot :chatbotConfig="chatbotConfig"></amplify-chatbot>
+        <!--<v-row>
             <v-col>
                 <v-card class="chatbox">
                     <v-toolbar
@@ -117,7 +117,7 @@
                     </v-card>
                 </div>
             </v-col>
-        </v-row>
+        </v-row>-->
 
     </div>
 
@@ -125,7 +125,16 @@
 
 
 <script>
+
+    
+
     export default ({
+        data: () => ({
+            chatbotConfig: {
+                bot: "OrderFlowers_dev",
+                clearComplete: false
+            }
+        }),
         methods: {
             openForm: function () {
                 document.getElementById("myForm").style.display = "block";

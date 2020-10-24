@@ -12,7 +12,7 @@
                 </v-list-item-subtitle>
                     </v-col>
                     <v-col>
-                        <img src="../assets/logo.png" class="mt-2 ml-2" width="65" height="65">
+                        <img src="../assets/logo.png" class="mt-2 ml-2" width="60" height="65">
                     </v-col>
                 </v-row>
             </v-list-item-content>
