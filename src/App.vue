@@ -44,8 +44,7 @@
 
         background-size: cover;
         background-repeat: no-repeat;
-
-
+        height: 100%;
     }
 
     ::-webkit-scrollbar {

@@ -1,6 +1,5 @@
 <template>
     <div class="chatbot">
-        <h1 style="text-align: center; margin-bottom: 30px"> Chatbot </h1>
 
         <v-row>
             <v-col>
@@ -62,14 +61,10 @@
                     </v-toolbar>
                     <v-card-text class="caption">
                         (Chatbot is thinking...)
-                        <v-progress-circular :value="20" indeterminate style="margin-left: 12vw"></v-progress-circular>
                     </v-card-text>
                 </v-card>
 
             </v-col>
-            <v-divider
-                    vertical
-            ></v-divider>
             <v-col style="text-align: center; margin: auto auto">
                 <v-btn
                         elevation="2"
@@ -149,6 +144,17 @@
 
     }
 
+    .chatbot {
+        max-width: 60vw;
+        margin: 0 auto;
+        max-height: 80vh;
+        height: 80vh;
+
+        background-image: url("../assets/undraw_Private_data_re_4eab.svg");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
     /* The popup chat - hidden by default */
     .chat-popup {
         display: none;
@@ -156,7 +162,7 @@
     }
 
     .buttons {
-        margin-left: 50px;
+
         padding-bottom: 20px;
     }
 

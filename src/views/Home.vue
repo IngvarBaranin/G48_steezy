@@ -50,8 +50,9 @@
                     <v-btn
                             elevation="2"
                             outlined
+                            x-large
                             class="orange accent-1"
-                            style="margin-right: 10px; text-align: center;"
+                            style="margin-right: 10px; text-align: center; text-decoration: none"
                     >Read More!</v-btn>
                 </router-link>
 
@@ -59,8 +60,9 @@
                     <v-btn
                             elevation="2"
                             outlined
+                            x-large
                             class="orange accent-1"
-                            style="text-align: center;"
+                            style="text-align: center; text-decoration: none"
                     >Ask us a question!</v-btn>
                 </router-link>
 

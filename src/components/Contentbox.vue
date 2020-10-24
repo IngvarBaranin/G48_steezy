@@ -14,11 +14,11 @@
     .content {
         padding-right: 10vh;
         padding-left: 5vh;
-        margin-top: 10vh;
+        margin-top: 15vh;
         background-size:100% 100%;
         width: 85vw;
         max-width: 85vw;
-        height: 90vh;
+        height: 85vh;
         overflow: auto;
     }
 
