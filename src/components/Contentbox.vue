@@ -12,13 +12,13 @@
 
 <style>
     .content {
+        padding-right: 10vh;
+        padding-left: 5vh;
         margin-top: 10vh;
-
-        padding: 20px;
-        width: 50vw;
-        max-width: 50vw;
-        max-height: 70vh;
-        height: 70vh;
+        background-size:100% 100%;
+        width: 85vw;
+        max-width: 85vw;
+        height: 90vh;
         overflow: auto;
     }
 
