@@ -50,7 +50,7 @@
               <v-img
                 class="white--text align-end"
                 height="100px"
-                src="https://cdn.shopify.com/s/files/1/2395/7099/products/08bd12bd-3552-4abb-9569-0435ebaf7884_900x.progressive.jpg?v=1589539735"
+                src="https://i.imgur.com/k14YWFt.jpg"
               >
                 <v-card-title class="titleshadow">Privacy groups</v-card-title>
               </v-img>
@@ -84,7 +84,7 @@
               <v-img
                 class="white--text align-end"
                 height="100px"
-                src="https://cdn.shopify.com/s/files/1/2395/7099/products/190aa589-bb42-40f7-a414-547a60391cc6_900x.progressive.jpg?v=1590037363"
+                src="https://i.imgur.com/AMIMNiZ.jpg"
               >
                 <v-card-title class="titleshadow">Meets</v-card-title>
               </v-img>
