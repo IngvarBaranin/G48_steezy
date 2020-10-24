@@ -2,12 +2,19 @@
     <v-navigation-drawer class="borderleft" permanent app absolute>
         <v-list-item style="height: 15vh">
             <v-list-item-content>
+                <v-row no-gutters>
+                    <v-col>
                 <v-list-item-title class="title text-h3">
-                    Steezy <img src="../assets/logo.png" width="40" height="40">
+                    Steezy
                 </v-list-item-title>
                 <v-list-item-subtitle>
                     Cyber Security Hygiene
                 </v-list-item-subtitle>
+                    </v-col>
+                    <v-col>
+                        <img src="../assets/logo.png" class="mt-2 ml-2" width="65" height="65">
+                    </v-col>
+                </v-row>
             </v-list-item-content>
         </v-list-item>
 
