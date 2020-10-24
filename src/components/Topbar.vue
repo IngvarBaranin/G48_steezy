@@ -7,6 +7,14 @@
         <v-btn icon>
             <v-icon>mdi-progress-question</v-icon>
         </v-btn>
+        <v-btn
+                class="orange accent-1"
+                elevation="5"
+                fab
+                small
+        >
+            <v-icon>mdi-robot</v-icon>
+        </v-btn>
     </v-app-bar>
 </template>
 

@@ -61,7 +61,6 @@
             </router-link>
         </v-list>
     </v-navigation-drawer>
-
 </template>
 
 <style>
