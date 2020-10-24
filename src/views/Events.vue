@@ -119,4 +119,9 @@
 .titleshadow {
   text-shadow: 0px 0px 10px black, 0px 0px 5px black;
 }
+
+    .events{
+        padding-left: 10vh;
+        padding-right: 10vh;
+    }
 </style>
