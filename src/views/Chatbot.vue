@@ -1,6 +1,13 @@
 <template>
-    <div class="chatbot">
-        <amplify-chatbot :chatbotConfig="chatbotConfig"></amplify-chatbot>
+    <v-row class="ma-0 pa-0">
+    <v-col class="ma-0 pa-0">
+        <img src="../assets/logo.png" class="center" width="90" height="90">
+        <div class="chatbot">
+            <amplify-chatbot :chatbotConfig="chatbotConfig" v-on:keyup.enter.native="goToBottom()" id="chatbot"></amplify-chatbot>
+        </div>
+    </v-col>
+    </v-row>
+
         <!--<v-row>
             <v-col>
                 <v-card class="chatbox">
@@ -119,14 +126,12 @@
             </v-col>
         </v-row>-->
 
-    </div>
-
 </template>
 
 
 <script>
 
-    
+
 
     export default ({
         data: () => ({
@@ -141,12 +146,44 @@
             },
             closeForm: function () {
                 document.getElementById("myForm").style.display = "none";
+            },
+            goToBottom: function() {
+                var element = document.getElementById("chatbot").firstChild.firstChild.firstChild;
+                console.log(element);
+                setTimeout(function () {
+                        element.scrollTop = element.scrollHeight;
+            }, 300);
             }
         }
     })
 </script>
 
 <style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .amplify-form-container {
+        height: 60vh;
+    }
+
+    .amplify-form-row {
+        height: 55vh;
+        overflow-y: scroll;
+        margin-bottom: 10px;
+    }
+
+    .amplify-interactions-input {
+        background-color: #FFD180 !important;
+        color: black !important;
+    }
+
+    .amplify-form-input {
+        padding: 10px 10px 10px 10px;
+    }
 
     .chatbox {
         margin-bottom: 20px;
@@ -170,6 +207,10 @@
     .buttons {
 
         padding-bottom: 20px;
+    }
+
+    *:focus {
+    outline: none;
     }
 
 </style>
