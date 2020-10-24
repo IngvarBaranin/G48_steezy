@@ -1,7 +1,6 @@
 <template>
     <div class="advice">
-        <h1>Advice</h1>
-        <hr>
+        <h1 style="text-align: center">Advice</h1>
         <br>
 
 
