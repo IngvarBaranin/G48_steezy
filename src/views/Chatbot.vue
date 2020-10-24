@@ -70,7 +70,7 @@
             <v-divider
                     vertical
             ></v-divider>
-            <v-col>
+            <v-col style="text-align: center; margin: auto auto">
                 <v-btn
                         elevation="2"
                         x-large
