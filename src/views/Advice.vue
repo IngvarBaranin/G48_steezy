@@ -1,58 +1,96 @@
 <template>
     <div>
-        <h1> Advice text</h1>
+        <h1>Advice</h1>
         <hr>
-        <p style="margin-top:50px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem Ipsum
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
-            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
-
-        </p>
-        <p>
-            Why do we use it?
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
-            letters, as opposed to using 'Content here, content here', making it look like readable English. Many
-            desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a
-            search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved
-            over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        <br>
 
 
-            Where does it come from?
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
-            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem
-            Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
-            source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular
-            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
-            section 1.10.32.
+        <v-card max-width="800px">
+            <v-toolbar
+            class="orange accent-1"
+            dense
+            flat
+            >
+                <v-toolbar-title class="title">
+                    We are a small team, and want to start with security
+                </v-toolbar-title>
+            </v-toolbar>
+            <v-card-text class="font-weight-medium">
+                <ol>
+                  <li>Decide what is the most important thing you will protect.</li>
+                  <li>What are you using for working with the most important information?</li>
+                  <li>How do you want to protect your most important assets?</li>
+                  <li>What technical measures do you have to do asap?</li>
+                </ol>
+            </v-card-text>
+        </v-card>
 
-        </p>
-        <p>
-            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections
-            1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
-            original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        <br>
 
-            Where can I get some?
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
-            some form, by injected humour, or randomised words which don't look even slightly believable. If you are
-            going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as
-            necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
-            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic
-            words etc.</p>
+        <v-card max-width="800px">
+            <v-toolbar
+            class="orange accent-1"
+            dense
+            flat
+            >
+                <v-toolbar-title class="title">
+                    We know our basics and want to become pros
+                </v-toolbar-title>
+            </v-toolbar>
+            <v-card-text class="font-weight-medium">
+                <v-icon small color="yellow darken-2" class="iconspace">mdi-check-bold</v-icon> Security objectives are clear <br>
+                <v-icon small color="yellow darken-2" class="iconspace">mdi-check-bold</v-icon> Assets are counted and categorized <br>
+                <v-icon small color="yellow darken-2" class="iconspace">mdi-check-bold</v-icon> Security policy lookalike exists <br>
+
+                <br>
+
+                <ol>
+                  <li>Have you done a long-ass risk assessment?</li>
+                  <li>What are the controls we might have missed?</li>
+                  <li>What can we do about logging and monitoring?</li>
+                  <li>Can we boost to data protection/ that GDPR thing?</li>
+                  <li>Do you review application security and pentest?</li>
+                  <li>Is your incident management effective?</li>
+                </ol>
+            </v-card-text>
+        </v-card>
+
+        <br>
+
+        <v-card max-width="800px">
+            <v-toolbar
+            class="orange accent-1"
+            dense
+            flat
+            >
+                <v-toolbar-title class="title">
+                    We are confident in managing security
+                </v-toolbar-title>
+            </v-toolbar>
+            <v-card-text class="font-weight-medium">
+                <v-icon small color="yellow darken-2" class="iconspace">mdi-check-bold</v-icon> Many security documents exist <br>
+                <v-icon small color="yellow darken-2" class="iconspace">mdi-check-bold</v-icon> Risk assessment done  <br>
+                <v-icon small color="yellow darken-2" class="iconspace">mdi-check-bold</v-icon> Pentests done <br>
+                <v-icon small color="yellow darken-2" class="iconspace">mdi-check-bold</v-icon> Staff trained <br>
+
+                <br>
+
+                <ol>
+                  <li>How to start with audits or reviews?</li>
+                  <li>How to follow up on your critical supplier contracts?</li>
+                  <li>What can we improved in DEV and OPS security?</li>
+                  <li>How to assess IP, GDPR and other compliance?</li>
+                  <li>Check out also other useful frameworks like business continuity.</li>
+                </ol>
+            </v-card-text>
+        </v-card>
+
+
     </div>
 </template>
 
 <style>
+    .iconspace {
+        padding-right:1em
+    }
 </style>

@@ -1,7 +1,7 @@
 <template>
     <v-app>
         <v-row>
-            <v-col cols="3" >
+            <v-col cols="3">
                 <Sidebar/>
             </v-col>
 
@@ -52,5 +52,25 @@
         border-right: 2px solid #e0e0e0 !important;
         border-top: 2px solid #e0e0e0 !important;
         border-radius: 10px 10px 10px 10px;
+    }
+
+    ::-webkit-scrollbar {
+      width: 15px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #e6e6e6;
+      border: solid 3px #e6e6e6;
+      border-radius: 7px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #b0b0b0;
+      border: solid 3px #e6e6e6;
+      border-radius: 7px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: black;
     }
 </style>
