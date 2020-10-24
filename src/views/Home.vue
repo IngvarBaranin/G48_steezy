@@ -5,12 +5,12 @@
             <v-col>
                 <h1> Taking small steps towards security with ease.</h1>
 
-                <p style="margin-bottom: 60px">Everyone’s story is different. But we all have to roll our sleeves to protect
+                <p style="margin-bottom: 70px">Everyone’s story is different. But we all have to roll our sleeves to protect
                     the data
                     and information we
                     work with every day.</p>
 
-                <v-card style="margin-bottom: 50px; text-align: center">
+                <v-card style="margin-bottom: 70px; text-align: center">
                     <v-toolbar
                             class="orange accent-1"
                             dense
@@ -26,7 +26,7 @@
                         coworkers/employees data and your client data is safe.
                     </v-card-text>
                 </v-card>
-                <v-card style="margin-bottom: 50px; text-align: center">
+                <v-card style="margin-bottom: 70px; text-align: center">
                     <v-toolbar
                             class="orange accent-1"
                             dense
@@ -66,8 +66,6 @@
                     >Ask us a question!</v-btn>
                 </router-link>
 
-
-
             </v-col>
             <v-col>
             </v-col>
@@ -78,7 +76,7 @@
 
 <style>
     .home {
-        padding-top:7vh;
+        padding-top:2vh;
         text-align: center;
         background-image: url("../assets/undraw_Done_checking_re_6vyx.svg");
         background-repeat: no-repeat;
