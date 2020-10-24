@@ -3,7 +3,7 @@
         <v-list-item style="height: 15vh">
             <v-list-item-content>
                 <v-list-item-title class="title text-h3">
-                    Steezy
+                    Steezy <img src="../assets/logo.png" width="40" height="40">
                 </v-list-item-title>
                 <v-list-item-subtitle>
                     Cyber Security Hygiene
