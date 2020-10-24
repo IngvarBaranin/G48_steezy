@@ -4,7 +4,7 @@
         <v-row>
             <v-col>
                 <h1 style="text-align: center">Guidelines to security</h1>
-                <blockquote class="blockquote"> <p style=" text-align: center" > As your business evolves there are many security aspects to think of. Here we have divided the most important aspects into three main stages. Use these guidelines to form your own plan to security.</p>
+                <blockquote class="blockquote"> <p style=" text-align: center" > As your business evolves there are many security aspects to think of. <br> Use these guidelines to form your own plan to security.</p>
                 </blockquote>
 
             </v-col>
@@ -22,8 +22,8 @@
                             dense
                             flat
                     >
-                        <v-toolbar-title class="title">
-                            We are a small team, and want to start with security
+                        <v-toolbar-title class="title" style="word-break: break-all">
+                            We are a small team and want to start with security
                         </v-toolbar-title>
                     </v-toolbar>
                     <v-card-text class="font-weight-bold">

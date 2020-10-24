@@ -1,15 +1,16 @@
 <template>
     <v-navigation-drawer class="borderleft" permanent app absolute>
+        <router-link to="/">
         <v-list-item style="height: 15vh">
             <v-list-item-content>
                 <v-row no-gutters>
                     <v-col>
-                <v-list-item-title class="title text-h3">
-                    Steezy
-                </v-list-item-title>
-                <v-list-item-subtitle>
-                    Cyber Security Hygiene
-                </v-list-item-subtitle>
+                        <v-list-item-subtitle class="text-h6 pl-1">
+                            Security is
+                        </v-list-item-subtitle>
+                        <v-list-item-title class="title text-h3">
+                            Steezy
+                        </v-list-item-title>
                     </v-col>
                     <v-col>
                         <img src="../assets/logo.png" class="mt-2 ml-2" width="60" height="65">
@@ -17,20 +18,14 @@
                 </v-row>
             </v-list-item-content>
         </v-list-item>
+        </router-link>
 
         <v-divider></v-divider>
         <v-list
                 dense
                 nav
         >
-            <router-link to="/">
-                <v-list-item class="item">
-                    <v-list-item-content>
-                        <v-list-item-title class="text-h6 my-2 mx-4">Home</v-list-item-title>
-                    </v-list-item-content>
 
-                </v-list-item>
-            </router-link>
             <!--<router-link to="/overview">
                 <v-list-item class="item">
                     <v-list-item-content >
@@ -77,5 +72,9 @@
 
     .item:hover {
         background-color: #EEEEEE !important;
+    }
+
+    a {
+        text-decoration: none;
     }
 </style>
