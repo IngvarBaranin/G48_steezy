@@ -2,13 +2,14 @@
     <div class="advice">
 
         <v-row>
-            <v-col>
+            <v-col class="ma-0 pa-0">
                 <h1 style="text-align: center">Guidelines to security</h1>
-                <blockquote class="blockquote"> <p style=" text-align: center" > As your business evolves there are many security aspects to think of. <br> Use these guidelines to form your own plan to security.</p>
+                <blockquote class="blockquote"><p style=" text-align: center"> As your business evolves there are many
+                    security aspects to think of. <br> Use these guidelines to form your own plan to security.</p>
                 </blockquote>
 
             </v-col>
-            <v-col>
+            <v-col class="ma-0 pa-0">
             </v-col>
         </v-row>
 
@@ -22,9 +23,13 @@
                             dense
                             flat
                     >
-                        <v-toolbar-title class="title" style="word-break: break-all">
-                            We are a small team and want to start with security
+                        <v-toolbar-title class="title">
+                            <p class="heading">
+                                We are a small team and want to start with security
+                            </p>
+
                         </v-toolbar-title>
+
                     </v-toolbar>
                     <v-card-text class="font-weight-bold">
                         <ol class="advice-ol">
@@ -37,17 +42,20 @@
                 </v-card>
 
             </v-timeline-item>
-            <v-timeline-item  color="orange accent-1"
+            <v-timeline-item color="orange accent-1"
                              fill-dot
                              small>
                 <v-card>
                     <v-toolbar
-                            class="orange accent-1"
+                            class="orange accent-1 ma-0 pa-0"
                             dense
                             flat
                     >
                         <v-toolbar-title class="title">
-                            We know our basics and want to become pros
+                            <p class="heading">
+                                We know our basics and want to become pros
+                            </p>
+
                         </v-toolbar-title>
                     </v-toolbar>
                     <v-card-text class="font-weight-bold">
@@ -68,8 +76,6 @@
                         </ol>
 
 
-
-
                     </v-card-text>
                 </v-card>
             </v-timeline-item>
@@ -84,8 +90,8 @@
                             dense
                             flat
                     >
-                        <v-toolbar-title class="title">
-                            We are confident in managing security
+                        <v-toolbar-title class=" title">
+                            <p class="heading">We are confident in managing security</p>
                         </v-toolbar-title>
                     </v-toolbar>
                     <v-card-text class="font-weight-bold">
@@ -127,5 +133,12 @@
     .advice-ol li span {
         color: #757575;
         padding-left: 1em;
+    }
+
+    @media only screen and (max-width: 1500px) {
+        .heading {
+            font-size: 16px;
+        }
+
     }
 </style>

@@ -1,10 +1,10 @@
 <template>
-    <v-navigation-drawer class="borderleft" permanent app absolute>
+    <v-navigation-drawer class="borderleft" permanent app absolute style="width: 100%; max-width: 100%">
         <router-link to="/">
         <v-list-item style="height: 15vh">
             <v-list-item-content>
                 <v-row no-gutters>
-                    <v-col>
+                    <v-col class="nimed">
                         <v-list-item-subtitle class="text-h6 pl-1">
                             Security is
                         </v-list-item-subtitle>
@@ -67,11 +67,18 @@
 
 <style>
     .borderleft {
-        border-left: 2px solid #e0e0e0 !important;
+        border-left: 1px solid #e0e0e0 !important;
     }
 
     .item:hover {
         background-color: #EEEEEE !important;
+    }
+
+    @media only screen and (max-width: 1660px) {
+        .nimed{
+            display: none;
+        }
+
     }
 
     a {

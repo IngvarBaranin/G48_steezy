@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar app light flat absolute>
+    <v-app-bar app light static flat class="ma-0 pa-0" style="max-width: 86%; width: 86%; left:auto; right: auto">
         <v-spacer></v-spacer>
         <v-btn icon>
             <v-icon>mdi-magnify</v-icon>
@@ -13,6 +13,7 @@
                     elevation="5"
                     fab
                     small
+                    style="margin-right: 20px"
             >
                 <v-icon style="display:block">mdi-robot</v-icon>
             </v-btn>

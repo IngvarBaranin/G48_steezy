@@ -1,15 +1,20 @@
 <template>
     <v-app>
         <v-row>
-            <v-col cols="2">
-                <Sidebar/>
-            </v-col>
+            <v-responsive class="column1">
+                <v-col class=" ma-0 pa-0">
+                    <Sidebar/>
+                </v-col>
+            </v-responsive>
 
-            <v-col cols="10">
-                <Navbar/>
-                <Contentbox/>
-            </v-col>
+            <v-responsive class="column2">
+                <v-col class="ma-0 pa-0">
+                    <Navbar/>
+                    <Contentbox/>
+                </v-col>
+            </v-responsive>
         </v-row>
+
 
     </v-app>
 </template>
@@ -44,26 +49,35 @@
 
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100%;
+    }
+
+    .column1 {
+        width: 15%;
+        max-width: 15%;
+    }
+
+    .column2 {
+        width: 85%;
+        max-width: 85%;
     }
 
     ::-webkit-scrollbar {
-      width: 15px;
+        width: 15px;
     }
 
     ::-webkit-scrollbar-track {
-      background: #e6e6e6;
-      border: solid 3px #e6e6e6;
-      border-radius: 7px;
+        background: #e6e6e6;
+        border: solid 3px #e6e6e6;
+        border-radius: 7px;
     }
 
     ::-webkit-scrollbar-thumb {
-      background: #b0b0b0;
-      border: solid 3px #e6e6e6;
-      border-radius: 7px;
+        background: #b0b0b0;
+        border: solid 3px #e6e6e6;
+        border-radius: 7px;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-      background: black;
+        background: black;
     }
 </style>

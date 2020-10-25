@@ -1,6 +1,7 @@
 <template>
     <v-sheet
             class="content"
+            absolute
             app
             permanent
             rounded-lg
@@ -16,8 +17,6 @@
         padding-left: 5vh;
         margin-top: 15vh;
         background-size:100% 100%;
-        width: 85vw;
-        max-width: 85vw;
         height: 85vh;
         overflow: auto;
     }

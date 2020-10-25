@@ -66,8 +66,8 @@
                     >Ask us a question!</v-btn>
                 </router-link>
 
-            </v-col>
-            <v-col>
+            </v-col >
+            <v-col class="extra">
             </v-col>
             </v-row>
 
@@ -81,5 +81,16 @@
         background-image: url("../assets/undraw_Done_checking_re_6vyx.svg");
         background-repeat: no-repeat;
         background-position: right;
+    }
+
+    @media only screen and (max-width: 1350px) {
+        .home{
+            background-image: none;
+        }
+
+        .extra{
+            display: none;
+        }
+
     }
 </style>
